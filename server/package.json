@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.9.16",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "nodemon": "^2.0.2"
+  }
+}
